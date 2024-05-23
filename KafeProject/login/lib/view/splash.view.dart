@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
+import 'package:login/butongecis/girisyapildi.dart';
 import 'package:login/utils/global.colors.dart';
-import 'package:login/view/login.view.dart';
 
 class SplashView extends StatelessWidget {
   const SplashView({super.key});

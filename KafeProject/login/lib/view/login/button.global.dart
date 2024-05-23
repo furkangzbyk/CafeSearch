@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:login/butongecis/girisyapildi.dart';
+import 'package:login/view/login.view.dart';
 
 class ButtonGlobal extends StatelessWidget {
   const ButtonGlobal({super.key});
@@ -12,7 +12,7 @@ class ButtonGlobal extends StatelessWidget {
       alignment: Alignment.center,
       child: ElevatedButton(
         onPressed: () => Navigator.push(
-            context, MaterialPageRoute(builder: (context) => girismaps())),
+            context, MaterialPageRoute(builder: (context) => MapScreen())),
         style: ButtonStyle(
             backgroundColor: MaterialStateProperty.all(Colors.purple)),
         child: const Text(

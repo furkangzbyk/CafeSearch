@@ -66,7 +66,7 @@ class hesapolustur extends StatelessWidget {
               const SizedBox(height: 10),
 
               TextFormGlobal(
-                controller: passwordController,
+                controller: passwordrepeat,
                 text: 'Şifreni Onayla',
                 textInputType: TextInputType.text,
                 obscure: true,

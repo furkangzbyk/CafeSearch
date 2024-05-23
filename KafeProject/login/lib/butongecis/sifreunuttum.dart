@@ -7,6 +7,7 @@ import 'package:login/view/login/text.form.global.dart';
 class sifreunuttum extends StatelessWidget {
   sifreunuttum({super.key});
   final TextEditingController emailController = TextEditingController();
+  final TextEditingController newPasswordController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
 
   @override
@@ -65,7 +66,7 @@ class sifreunuttum extends StatelessWidget {
               const SizedBox(height: 10),
 
               TextFormGlobal(
-                controller: passwordController,
+                controller: newPasswordController,
                 text: 'Yeni Şifreni Onayla',
                 textInputType: TextInputType.text,
                 obscure: true,

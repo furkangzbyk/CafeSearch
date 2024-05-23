@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:login/view/login.view.dart';
+import 'package:login/butongecis/girisyapildi.dart';
 
 class HesapOlusturuldu extends StatelessWidget {
   const HesapOlusturuldu({super.key});
